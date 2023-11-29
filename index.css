@@ -58,6 +58,12 @@ body {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+#header .logo {
+    width: 100px;
+    /* height: 50px; */
+    border-radius: 50%;
+}
+
 #navbar {
     display: flex;
     align-items: center;
@@ -67,6 +73,7 @@ body {
 #navbar li {
     list-style: none;
     padding: 0 20px;
+    position: relative;
 }
 
 #navbar li a {
@@ -77,6 +84,22 @@ body {
     transition: 0.3s ease;
 }
 
-#navbar li a:hover {
+#navbar li a .cart-logo {
+    width: 30px;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
     color: rgb(192 110 11);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: rgb(192 110 11);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
