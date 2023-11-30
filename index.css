@@ -103,3 +103,17 @@ body {
     bottom: -4px;
     left: 20px;
 }
+
+/* Home Page  */
+#hero {
+    background-image: url("images/hero.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
