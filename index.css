@@ -56,6 +56,10 @@ body {
     padding: 20px 80px;
     background: rgb(196 225 197);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 
 #header .logo {
@@ -107,7 +111,7 @@ body {
 /* Home Page  */
 #hero {
     background-image: url("images/hero.jpg");
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     background-size: cover;
     background-position: top 25% right 0;
@@ -116,4 +120,29 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 16px;
+}
+
+#hero h1 {
+    color: rgb(192 110 11);
+}
+
+#hero button {
+    background-color: rgb(201, 198, 198);
+    color: #c00b0b;
+    padding: 16px 28px;
+    cursor: pointer;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+#hero button:hover {
+    background-color: forestgreen;
+    color: aliceblue;
 }
