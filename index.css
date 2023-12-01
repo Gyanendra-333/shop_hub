@@ -566,8 +566,8 @@ footer .col .row .fo-store:hover {
 }
 
 footer .col .fo-pay {
-    width: 170px;
-    height: 100px;
+    width: 200px;
+    height: 70px;
     border-radius: 40%;
     cursor: pointer;
 }
