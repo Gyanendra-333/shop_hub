@@ -132,6 +132,11 @@ body {
     left: 20px;
 }
 
+#mobile {
+    display: none;
+    align-items: center;
+}
+
 /* Home Page  */
 #hero {
     background-image: url("images/hero.jpg");
@@ -570,4 +575,38 @@ footer .col .fo-pay {
     height: 70px;
     border-radius: 40%;
     cursor: pointer;
+}
+
+/* Responsive Design  */
+
+@media screen and (max-width:1024px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: azure;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.3);
+        padding: 80px 0 0 10px;
+    }
+
+    #navbar li {
+        margin-bottom: 30px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile svg {
+        color: #1a1a1a;
+        font-size: 24px;
+        margin: 16px;
+    }
 }
