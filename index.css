@@ -388,3 +388,46 @@ body {
     background: #088178;
     color: 2px solid #088178;
 }
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/b3.jpg);
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url(images/b4.jpg);
+}
+
+#banner3 .banner-box3 {
+    background-image: url(images/b5.jpg);
+}
+
+#banner3 h2 {
+    color: #0e1e28;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#banner3 h3 {
+    color: #ff006f;
+    font-size: 24px;
+    font-weight: 700;
+}
