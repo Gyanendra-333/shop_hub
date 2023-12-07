@@ -674,6 +674,12 @@ footer .col .fo-pay {
     line-height: 26px;
 }
 
+/* Blog Page  */
+
+#page-header.blog-header {
+    background-image: url("blog/b1.jpg");
+}
+
 
 
 
