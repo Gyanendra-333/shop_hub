@@ -751,6 +751,7 @@ footer .col .fo-pay {
 
 #about-app {
     text-align: center;
+    background-color: aliceblue;
 }
 
 #about-app .video {
@@ -760,8 +761,8 @@ footer .col .fo-pay {
 }
 
 #about-app .video video {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: auto;
     border-radius: 20px;
 }
 
