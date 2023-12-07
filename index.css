@@ -729,6 +729,12 @@ footer .col .fo-pay {
     z-index: -9;
 }
 
+/* About Page  */
+
+#page-header.about-header {
+    background-image: url("blog/about1.jpg");
+}
+
 
 
 
