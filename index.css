@@ -735,9 +735,19 @@ footer .col .fo-pay {
     background-image: url("blog/about1.jpg");
 }
 
+#about-head {
+    display: flex;
+    align-items: center;
+}
 
+#about-head img {
+    width: 50%;
+    height: auto;
+}
 
-
+#about-head div {
+    padding-left: 40px;
+}
 
 
 
