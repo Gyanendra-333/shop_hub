@@ -766,15 +766,54 @@ footer .col .fo-pay {
     border-radius: 20px;
 }
 
+/* Contact Page  */
 
+#contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+#contact-details .details {
+    width: 40%;
+}
 
+#contact-details .details span {
+    font-size: 16px;
+}
 
+#contact-details .details h2 {
+    font-size: 26px;
+    line-height: 36px;
+    padding: 20px 0;
+}
 
+#contact-details .details h3 {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
 
+#contact-details .details li {
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
 
+#contact-details .details li p {
+    margin: 0;
+    font-size: 15px;
+}
 
+#contact-details .map {
+    width: 55%;
+    height: 400px;
+}
 
+#contact-details .map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
 
 
 
