@@ -818,9 +818,17 @@ footer .col .fo-pay {
 }
 
 /* Form Details  */
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #828b24;
+    border-radius: 6px;
+}
 
 #form-details form {
-    width: 65%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -840,10 +848,33 @@ footer .col .fo-pay {
     color: white;
 }
 
+/* People */
 
+#form-details .people div {
+    padding-bottom: 26px;
+    display: flex;
+    align-items: flex-start;
+}
 
+#form-details .people div img {
+    width: 66px;
+    height: 66px;
+    object-fit: cover;
+    margin-right: 16px;
+}
 
+#form-details .people div p {
+    margin: 0;
+    line-height: 26px;
+    font-size: 16px;
+}
 
+#form-details .people div p span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
 
 
 
