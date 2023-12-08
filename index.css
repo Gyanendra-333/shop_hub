@@ -937,6 +937,61 @@ footer .col .fo-pay {
     font-size: 14px;
 }
 
+/* Cart Add  */
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3 {
+    padding-bottom: 16px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #828b24;
+    border-radius: 6px;
+}
+
+#coupon button {
+    background-color: #088178;
+    color: white;
+    padding: 10px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #828b24;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal h3 {
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #828b24;
+    padding: 10px;
+    font-size: 14px;
+}
 
 
 /* Responsive Design for tab */
