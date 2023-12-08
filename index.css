@@ -878,6 +878,10 @@ footer .col .fo-pay {
 
 /* Cart  */
 
+#cart {
+    overflow-x: auto;
+}
+
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -962,7 +966,8 @@ footer .col .fo-pay {
     border-radius: 6px;
 }
 
-#coupon button {
+#coupon button,
+#subtotal button {
     background-color: #088178;
     color: white;
     padding: 10px 20px;
@@ -1242,5 +1247,20 @@ footer .col .fo-pay {
     #form-details form {
         width: 100%;
         margin: 50px 0;
+    }
+
+    /* Cart Page  */
+
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }
